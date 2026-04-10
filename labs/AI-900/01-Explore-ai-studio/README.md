@@ -1,58 +1,25 @@
 # Lab: Prepare for an AI development project
 
-**Certification:** AZ-104  
+**Certification:** AI-900  
 **Module:** [Plan and prepare to develop AI solutions on Azure](https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/)  
-**Date completed:** YYYY-MM-DD  
+**Date completed:** 2026-04-10  
+Lab URL: https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/01-Explore-ai-studio.html
 
 
 ## Scenario
 
-> _Rewrite the lab's business context in your own words. Example: "Contoso Ltd needs to segment network access so the finance team's VMs cannot reach the dev team's VMs, while both can access a shared database subnet."_
+> A company wants to move to the Azure Cloud and use its AI capabilities. They need to get familia with the process of Microsoft Foundry
 
-## Architecture
-
-![Architecture diagram](./diagram.png)
-
-_Editable source: diagram.drawio_
 
 ## What I Did
 
-Brief narrative of implementation steps — not a copy of the lab instructions, but your own summary of the decisions made and resources created.
+- installed the azure CLI
+- created a Foundry project
+- deployed an LLM model
+- got familiar with the connection of Foundry project and parent Resource
+- Installed the AI Toolkit extension for Visual Studio Code
+- Tested the deployed LLM via this plugin
 
-## Screenshots
-
-| Step                      | Screenshot                             |
-| ------------------------- | -------------------------------------- |
-| Resource group created    | ![](./screenshots/01-rg-created.png)   |
-| NSG rules configured      | ![](./screenshots/02-nsg-rules.png)    |
-| Connectivity test passing | ![](./screenshots/03-ping-success.png) |
-
-## Gotchas & Learnings
-
-- **Problem:** [What went wrong or confused you]  
-    **Fix:** [How you resolved it]  
-    **Takeaway:** [What you now understand better]
-    
-- **Problem:** ...  
-    **Fix:** ...  
-    **Takeaway:** ...
-    
-
-## IaC Version
-
-After completing this lab via the portal, I recreated the infrastructure using Bicep:
-
-```bash
-az deployment group create --resource-group rg-lab-xx --template-file main.bicep
-```
-
-See `main.bicep` for the full template.
-
-## Resources
-
-- Microsoft Learn module link
-- GitHub lab instructions link
-
-
+![](./screenshots/vscode.jpg)
 
 
