@@ -19,14 +19,14 @@
 - deploy the inference pipeline as an API
 - test the API (via Python script)
 
+Testing of the deployed API with the [./test_api.py](./test_api.py) script results:
+```
+b'{"Results": {"WebServiceOutput0": [{"predicted_price": 14996.972300458227}]}}'
 
-## Screenshots
+b'{"Results": {"WebServiceOutput0": [{"predicted_price": 23141.26283450902}]}}'
 
-| Step                      | Screenshot                             |
-| ------------------------- | -------------------------------------- |
-| Resource group created    | ![](./screenshots/01-rg-created.png)   |
-| NSG rules configured      | ![](./screenshots/02-nsg-rules.png)    |
-| Connectivity test passing | ![](./screenshots/03-ping-success.png) |
+b'{"Results": {"WebServiceOutput0": [{"predicted_price": 39628.13596455278}]}}'
+```
 
 ## Gotchas & Learnings
 
