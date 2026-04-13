@@ -1,9 +1,8 @@
 # Lab: [Title from Microsoft Learn]
 
-**Certification:** AZ-104  
+**Certification:** AI-900  
 **Module:** [Module name]  
 **Date completed:** YYYY-MM-DD  
-**Time spent:** ~X hours
 
 ## Scenario
 
