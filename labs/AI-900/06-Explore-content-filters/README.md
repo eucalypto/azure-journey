@@ -9,11 +9,6 @@
 
 > _Rewrite the lab's business context in your own words. Example: "Contoso Ltd needs to segment network access so the finance team's VMs cannot reach the dev team's VMs, while both can access a shared database subnet."_
 
-## Architecture
-
-![Architecture diagram](./diagram.png)
-
-_Editable source: diagram.drawio_
 
 ## What I Did
 
@@ -29,6 +24,11 @@ Brief narrative of implementation steps — not a copy of the lab instructions, 
 
 ## Gotchas & Learnings
 
+When the context filter is triggered from a [Python code](./python_with_completions_api.py) with the Completions API, the following Error is raised and the program crashes:
+```
+openai.BadRequestError: Error code: 400 - {'error': {'message': "The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766", 'type': None, 'param': 'prompt', 'code': 'content_filter', 'status': 400, 'innererror': {'code': 'ResponsibleAIPolicyViolation', 'content_filter_result': {'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': True, 'severity': 'high'}}}}}
+```
+
 - **Problem:** [What went wrong or confused you]  
     **Fix:** [How you resolved it]  
     **Takeaway:** [What you now understand better]
@@ -37,21 +37,6 @@ Brief narrative of implementation steps — not a copy of the lab instructions, 
     **Fix:** ...  
     **Takeaway:** ...
     
-
-## IaC Version
-
-After completing this lab via the portal, I recreated the infrastructure using Bicep:
-
-```bash
-az deployment group create --resource-group rg-lab-xx --template-file main.bicep
-```
-
-See `main.bicep` for the full template.
-
-## Resources
-
-- Microsoft Learn module link
-- GitHub lab instructions link
 
 
 
