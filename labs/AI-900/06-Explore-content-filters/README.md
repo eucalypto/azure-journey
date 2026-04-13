@@ -7,12 +7,13 @@
 
 ## Scenario
 
-> _Rewrite the lab's business context in your own words. Example: "Contoso Ltd needs to segment network access so the finance team's VMs cannot reach the dev team's VMs, while both can access a shared database subnet."_
+> A company wants to use an AI solution and wants to make sure it does not create harmful content.
 
 
 ## What I Did
 
-Brief narrative of implementation steps — not a copy of the lab instructions, but your own summary of the decisions made and resources created.
+With the help of the Lab I had a look at the Azure AI Guardrails settings. All deployed models have the default guardrails activated, but I can create a custom one and set it up to the needs of my project/organization. I've set the triggers to very sensitive and indeed, the guardrails stop the request sooner.
+
 
 ## Screenshots
 
@@ -24,9 +25,52 @@ Brief narrative of implementation steps — not a copy of the lab instructions, 
 
 ## Gotchas & Learnings
 
-When the context filter is triggered from a [Python code](./python_with_completions_api.py) with the Completions API, the following Error is raised and the program crashes:
+When the context filter is triggered from a [Python code](./python_with_completions_api.py), the following Error is raised and the program crashes:
 ```
-openai.BadRequestError: Error code: 400 - {'error': {'message': "The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766", 'type': None, 'param': 'prompt', 'code': 'content_filter', 'status': 400, 'innererror': {'code': 'ResponsibleAIPolicyViolation', 'content_filter_result': {'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': True, 'severity': 'high'}}}}}
+"openai.BadRequestError":"Error code":400 -{
+   "error":{
+      "message":"The response was filtered due to the prompt triggering Azure OpenAI’s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "type":"invalid_request_error",
+      "param":"prompt",
+      "code":"content_filter",
+      "content_filters":[
+         {
+            "blocked":true,
+            "source_type":"prompt",
+            "content_filter_raw":[
+               
+            ],
+            "content_filter_results":{
+               "hate":{
+                  "filtered":false,
+                  "severity":"safe"
+               },
+               "sexual":{
+                  "filtered":false,
+                  "severity":"safe"
+               },
+               "violence":{
+                  "filtered":true,
+                  "severity":"high"
+               },
+               "self_harm":{
+                  "filtered":false,
+                  "severity":"safe"
+               },
+               "jailbreak":{
+                  "filtered":false,
+                  "detected":false
+               }
+            },
+            "content_filter_offsets":{
+               "start_offset":3751,
+               "end_offset":3802,
+               "check_offset":0
+            }
+         }
+      ]
+   }
+}
 ```
 
 - **Problem:** [What went wrong or confused you]  
