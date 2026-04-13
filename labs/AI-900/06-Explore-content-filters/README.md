@@ -17,15 +17,20 @@ With the help of the Lab I had a look at the Azure AI Guardrails settings. All d
 
 ## Screenshots
 
-| Step                      | Screenshot                             |
-| ------------------------- | -------------------------------------- |
-| Resource group created    | ![](./screenshots/01-rg-created.png)   |
-| NSG rules configured      | ![](./screenshots/02-nsg-rules.png)    |
-| Connectivity test passing | ![](./screenshots/03-ping-success.png) |
+Trying to trigger the default content filter:
+![](./screenshots/trying_to_hit_default_content_filter.jpg)
+
+After setting the content filter to highest sensitivity:
+![](./screenshots/content_filter_highest_sensitivity.jpg)
 
 ## Gotchas & Learnings
 
-When the context filter is triggered from a [Python code](./python_with_completions_api.py), the following Error is raised and the program crashes:
+- **Gotcha:** Trying to hit the content filter in default mode is harder than expected. The model itself has also built-in guardrails so that the content filter does not have to do all the work.    
+    **Takeaway:** When the content filter is not triggered, the model returns a full answer and includes an explanation that it can't help with the possible intended harmful action. But when the content filter is triggered, it produces a distinct message in the model playground and gives no output of the model, and in a python program, it produces an error that is raised:
+
+  
+
+When the content filter is triggered from a [Python code](./python_with_completions_api.py), the following Error is raised and the program crashes:
 ```
 "openai.BadRequestError":"Error code":400 -{
    "error":{
@@ -73,14 +78,7 @@ When the context filter is triggered from a [Python code](./python_with_completi
 }
 ```
 
-- **Problem:** [What went wrong or confused you]  
-    **Fix:** [How you resolved it]  
-    **Takeaway:** [What you now understand better]
-    
-- **Problem:** ...  
-    **Fix:** ...  
-    **Takeaway:** ...
-    
+
 
 
 
