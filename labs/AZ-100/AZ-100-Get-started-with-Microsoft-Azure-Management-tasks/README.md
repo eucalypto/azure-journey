@@ -1,0 +1,56 @@
+# Lab: [Get started with Azure management tasks](https://github.com/MicrosoftLearning/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks)
+
+**Certification:** AZ-100  
+**Module:** [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-with-azure-management-tasks/)  
+**Date completed:** 2026-04-14  
+
+## Scenario
+
+> _Rewrite the lab's business context in your own words. Example: "Contoso Ltd needs to segment network access so the finance team's VMs cannot reach the dev team's VMs, while both can access a shared database subnet."_
+
+## Architecture
+
+![Architecture diagram](./diagram.png)
+
+_Editable source: diagram.drawio_
+
+## What I Did
+
+Brief narrative of implementation steps — not a copy of the lab instructions, but your own summary of the decisions made and resources created.
+
+## Screenshots
+
+| Step                      | Screenshot                             |
+| ------------------------- | -------------------------------------- |
+| Resource group created    | ![](./screenshots/01-rg-created.png)   |
+| NSG rules configured      | ![](./screenshots/02-nsg-rules.png)    |
+| Connectivity test passing | ![](./screenshots/03-ping-success.png) |
+
+## Gotchas & Learnings
+
+- **Problem:** [What went wrong or confused you]  
+    **Fix:** [How you resolved it]  
+    **Takeaway:** [What you now understand better]
+    
+- **Problem:** ...  
+    **Fix:** ...  
+    **Takeaway:** ...
+    
+
+## IaC Version
+
+After completing this lab via the portal, I recreated the infrastructure using Bicep:
+
+```bash
+az deployment group create --resource-group rg-lab-xx --template-file main.bicep
+```
+
+See `main.bicep` for the full template.
+
+## Resources
+
+- Microsoft Learn module link
+- GitHub lab instructions link
+
+
+
