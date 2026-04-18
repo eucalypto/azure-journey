@@ -9,6 +9,10 @@
 > A company wants to stop bying and maintaining their own server machines. So they start setting up virtual machines, since they have a lot of good linux administrators that can work with the VMs directly, and want to keep the direct access to the machine (via SSH). So they need to manage the VMs, the virtual networks and (blob-) storage options.
 
 
+## Architecture Diagram
+
+![](./az100_management_lab_architecture.drawio.svg)
+
 ## What I Did
 
 Prepare:
