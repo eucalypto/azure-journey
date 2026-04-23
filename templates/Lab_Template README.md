@@ -1,8 +1,8 @@
 # Lab: [Title from Microsoft Learn]
 
 **Certification:** AI-900  
-**Module:** [Module name]  
-**Date completed:** YYYY-MM-DD  
+**Module:** [Module name]()  
+**Date completed:** 2026-04-DD  
 
 ## Scenario
 

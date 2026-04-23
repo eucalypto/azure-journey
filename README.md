@@ -4,6 +4,7 @@ A hands-on learning portfolio documenting my path from software developer and Ag
 
 ## Most Recent Labs:
 
+- 2026-04-23 [Get started with information extraction in Microsoft Foundry](./labs/AI-900/06a-content-understanding)
 - 2026-04-15 [Get started with Azure management tasks](./labs/AZ-100/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks)
 - 2026-04-13 [Apply guardrails to prevent the output of harmful content](./labs/AI-900/06-Explore-content-filters)
 - 2026-04-10 [Prepare for an AI development project](./labs/AI-900/01-Explore-ai-studio)
