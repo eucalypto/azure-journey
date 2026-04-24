@@ -21,10 +21,6 @@ I explored the Content Understanding Tools of Azure. There are the Content Under
 | Content Understanding in classic Foundry      | ![](./screenshots/Content_Understanding_in_classical_Foundry.jpg)    |
 
 ## Gotchas & Learnings
-
-- **Problem:** [What went wrong or confused you]  
-    **Fix:** [How you resolved it]  
-    **Takeaway:** [What you now understand better]
     
 - **Problem:** Python program error: "Resource not found..."  
     **Fix:** Use the right API Endpoint  
