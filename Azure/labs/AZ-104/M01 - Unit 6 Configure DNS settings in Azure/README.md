@@ -2,7 +2,7 @@
 
 **Certification:** AZ-104  
 **Module:** [M01 - Unit 6 Configure DNS settings in Azure](https://microsoftlearning.github.io/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/Instructions/Exercises/M01-Unit%206%20Configure%20DNS%20settings%20in%20Azure.html)  
-**Date completed:** 2026-08-24  
+**Date completed:** 2026-07-24  
 
 ## Scenario
 
@@ -38,7 +38,7 @@ After completing this lab via the portal, I recreated the infrastructure using B
 az deployment group create --resource-group ContosoResourceGroup --template-file main.bicep
 ```
 
-See `main.bicep` for the full template.
+See [main.bicep](./main.bicep) for the full template.
 
 ## Resources
 
