@@ -1,6 +1,6 @@
-# Azure Cloud Architecture Journey
+# Cloud Infrastructure Journey
  
-A hands-on learning portfolio documenting my path from software developer and Agile practitioner to Azure Cloud Architect. Each lab and project includes architecture diagrams, implementation notes, and lessons learned — the real artifacts of cloud engineering.
+A hands-on learning portfolio documenting my path from software developer and Agile practitioner to Cloud Infrastructure Architect. Each lab and project includes architecture diagrams, implementation notes, and lessons learned — the real artifacts of cloud engineering.
 
 ## Most Recent Labs:
 
