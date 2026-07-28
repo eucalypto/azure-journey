@@ -42,10 +42,10 @@ Brief narrative of implementation steps — not a copy of the lab instructions, 
 After completing this lab via the portal, I recreated the infrastructure using Bicep:
 
 ```bash
-az deployment group create --resource-group rg-lab-xx --template-file main.bicep
+az deployment group create --resource-group ContosoResourceGroup --template-file main.bicep
 ```
 
-See `main.bicep` for the full template.
+See [main.bicep](./main.bicep) for the full template.
 
 ## Resources
 
