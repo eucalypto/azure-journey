@@ -23,7 +23,6 @@ resource virtualNetworks_CoreServicesVnet_name_resource 'Microsoft.Network/virtu
           addressPrefixes: [
             '10.20.0.0/27'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -35,7 +34,6 @@ resource virtualNetworks_CoreServicesVnet_name_resource 'Microsoft.Network/virtu
           addressPrefixes: [
             '10.20.10.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -47,7 +45,6 @@ resource virtualNetworks_CoreServicesVnet_name_resource 'Microsoft.Network/virtu
           addressPrefixes: [
             '10.20.20.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -59,15 +56,12 @@ resource virtualNetworks_CoreServicesVnet_name_resource 'Microsoft.Network/virtu
           addressPrefixes: [
             '10.20.30.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
         }
       }
     ]
-    virtualNetworkPeerings: []
-    enableDdosProtection: false
   }
 }
 
@@ -92,7 +86,6 @@ resource virtualNetworks_ManufacturingVnet_name_resource 'Microsoft.Network/virt
           addressPrefixes: [
             '10.30.10.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -104,7 +97,6 @@ resource virtualNetworks_ManufacturingVnet_name_resource 'Microsoft.Network/virt
           addressPrefixes: [
             '10.30.20.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -116,7 +108,6 @@ resource virtualNetworks_ManufacturingVnet_name_resource 'Microsoft.Network/virt
           addressPrefixes: [
             '10.30.21.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
@@ -128,15 +119,12 @@ resource virtualNetworks_ManufacturingVnet_name_resource 'Microsoft.Network/virt
           addressPrefixes: [
             '10.30.22.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
         }
       }
     ]
-    virtualNetworkPeerings: []
-    enableDdosProtection: false
   }
 }
 
@@ -161,14 +149,11 @@ resource virtualNetworks_ResearchVnet_name_resource 'Microsoft.Network/virtualNe
           addressPrefixes: [
             '10.40.0.0/24'
           ]
-          delegations: []
           privateEndpointNetworkPolicies: 'Disabled'
           privateLinkServiceNetworkPolicies: 'Enabled'
           defaultOutboundAccess: false
         }
       }
     ]
-    virtualNetworkPeerings: []
-    enableDdosProtection: false
   }
 }
