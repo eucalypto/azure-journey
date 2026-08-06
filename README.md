@@ -6,6 +6,7 @@ A hands-on learning portfolio documenting my path from software developer and Ag
 
 ### AZ-104
 
+- 2026-08-06 [Lab 05 - Implement Intersite Connectivity](./Azure/labs/2026-08-06%20Lab%2005%20-%20Implement%20Intersite%20Connectivity)
 - 2026-07-29 [M01 - Unit 8 Connect two Azure Virtual Networks using global virtual network peering](./Azure/labs/2026-07-29%20M01%20-%20Unit%208%20Connect%20two%20Azure%20Virtual%20Networks%20using%20global%20virtual%20network%20peering)
 - 2026-07-24 [M01 - Unit 6 Configure DNS settings in Azure](./Azure/labs/2026-07-24%20M01%20-%20Unit%206%20Configure%20DNS%20settings%20in%20Azure)
 - 2026-07-24 [M01 - Unit 4 Design and implement a Virtual Network in Azure](./Azure/labs/2026-07-24%20M01%20-%20Unit%204%20Design%20and%20implement%20a%20Virtual%20Network%20in%20Azure)
