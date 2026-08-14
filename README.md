@@ -4,7 +4,7 @@ A hands-on learning portfolio documenting my path from software developer and Ag
 
 ## Most Recent Labs:
 
-### AZ-104
+### AZ-104 Microsoft Certified: Azure Administrator Associate
 
 - 2026-08-07 [Lab 04 - Implement Virtual Networking](./Azure/labs/2026-08-07%20Lab%2004%20-%20Implement%20Virtual%20Networking)
 - 2026-08-06 [Lab 05 - Implement Intersite Connectivity](./Azure/labs/2026-08-06%20Lab%2005%20-%20Implement%20Intersite%20Connectivity)
@@ -14,7 +14,7 @@ A hands-on learning portfolio documenting my path from software developer and Ag
 - 2026-07-24 [Exercise 01: Create and configure virtual networks](./Azure/labs/2026-07-24%20Create%20and%20configure%20virtual%20networks)
 
 
-### AZ-900
+### AI-900 Microsoft Certified: Azure AI Fundamentals
 
 - 2026-04-23 [Get started with information extraction in Microsoft Foundry](./Azure/labs/2026-04-23%2006a-content-understanding)
 - 2026-04-15 [Get started with Azure management tasks](./Azure/labs/2026-04-15%20AZ-100-Get-started-with-Microsoft-Azure-Management-tasks)
