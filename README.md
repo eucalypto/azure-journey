@@ -6,6 +6,7 @@ A hands-on learning portfolio documenting my path from software developer and Ag
 
 ### AZ-104 Microsoft Certified: Azure Administrator Associate
 
+- 2026-09-04 [Lab 03 - Manage Azure resources by using Azure Resource Manager Templates](./Azure/labs/2026-09-04%20Lab%2003%20-%20Manage%20Azure%20resources%20by%20using%20Azure%20Resource%20Manager%20Templates)
 - 2026-08-07 [Lab 04 - Implement Virtual Networking](./Azure/labs/2026-08-07%20Lab%2004%20-%20Implement%20Virtual%20Networking)
 - 2026-08-06 [Lab 05 - Implement Intersite Connectivity](./Azure/labs/2026-08-06%20Lab%2005%20-%20Implement%20Intersite%20Connectivity)
 - 2026-07-29 [M01 - Unit 8 Connect two Azure Virtual Networks using global virtual network peering](./Azure/labs/2026-07-29%20M01%20-%20Unit%208%20Connect%20two%20Azure%20Virtual%20Networks%20using%20global%20virtual%20network%20peering)
